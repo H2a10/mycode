@@ -1,6 +1,10 @@
 import pygame,math
 from pygame.locals import *
 
+#CONSTANTS
+WIDTH=512
+HEIGHT=256
+
 class Base(pygame.sprite.Sprite):
     def __init__(self,x,y,image):
         super().__init__()
